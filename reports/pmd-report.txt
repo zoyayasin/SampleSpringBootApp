@@ -1,0 +1,139 @@
+src/main/java/com/verizon/adb/AddressBookSpringDataRestfulAppApplication.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/verizon/adb/AddressBookSpringDataRestfulAppApplication.java:7:	headerCommentRequirement Required
+src/main/java/com/verizon/adb/AddressBookSpringDataRestfulAppApplication.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/verizon/adb/AddressBookSpringDataRestfulAppApplication.java:9:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/ServletInitializer.java:6:	Each class should declare at least one constructor
+src/main/java/com/verizon/adb/ServletInitializer.java:6:	headerCommentRequirement Required
+src/main/java/com/verizon/adb/ServletInitializer.java:9:	Parameter 'application' is not assigned and could be declared final
+src/main/java/com/verizon/adb/ServletInitializer.java:9:	protectedMethodCommentRequirement Required
+src/main/java/com/verizon/adb/dao/ContactRepository.java:11:	headerCommentRequirement Required
+src/main/java/com/verizon/adb/dao/ContactRepository.java:13:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/dao/ContactRepository.java:14:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/dao/ContactRepository.java:16:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/dao/ContactRepository.java:17:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/dao/ContactRepository.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:25:	Each class should declare at least one constructor
+src/main/java/com/verizon/adb/model/Contact.java:25:	headerCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:29:	fieldCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:33:	fieldCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:37:	fieldCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:42:	fieldCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:46:	fieldCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:51:	fieldCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:54:	fieldCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:56:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:59:	Parameter 'contactId' is not assigned and could be declared final
+src/main/java/com/verizon/adb/model/Contact.java:59:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:62:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:65:	Parameter 'firstName' is not assigned and could be declared final
+src/main/java/com/verizon/adb/model/Contact.java:65:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:68:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:71:	Parameter 'lastName' is not assigned and could be declared final
+src/main/java/com/verizon/adb/model/Contact.java:71:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:74:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:77:	Parameter 'dateOfBirth' is not assigned and could be declared final
+src/main/java/com/verizon/adb/model/Contact.java:77:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:80:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:83:	Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/verizon/adb/model/Contact.java:83:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:86:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:89:	Parameter 'mobileNumber' is not assigned and could be declared final
+src/main/java/com/verizon/adb/model/Contact.java:89:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:92:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Contact.java:95:	Parameter 'gender' is not assigned and could be declared final
+src/main/java/com/verizon/adb/model/Contact.java:95:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/model/Gender.java:3:	enumCommentRequirement Required
+src/main/java/com/verizon/adb/restapi/ContactApi.java:25:	Each class should declare at least one constructor
+src/main/java/com/verizon/adb/restapi/ContactApi.java:25:	headerCommentRequirement Required
+src/main/java/com/verizon/adb/restapi/ContactApi.java:28:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/verizon/adb/restapi/ContactApi.java:28:	fieldCommentRequirement Required
+src/main/java/com/verizon/adb/restapi/ContactApi.java:31:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/restapi/ContactApi.java:36:	Parameter 'contactId' is not assigned and could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:36:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/restapi/ContactApi.java:38:	Avoid variables with short names like c
+src/main/java/com/verizon/adb/restapi/ContactApi.java:38:	Local variable 'c' could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:40:	Avoid using if...else statements without curly braces
+src/main/java/com/verizon/adb/restapi/ContactApi.java:42:	Avoid using if...else statements without curly braces
+src/main/java/com/verizon/adb/restapi/ContactApi.java:47:	Parameter 'fieldBy' is not assigned and could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:47:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/restapi/ContactApi.java:48:	Parameter 'searchValue' is not assigned and could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:54:	Local variable 'cByMobNum' could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:55:	Avoid if (x != y) ..; else ..;
+src/main/java/com/verizon/adb/restapi/ContactApi.java:62:	Local variable 'cByEmail' could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:63:	Avoid if (x != y) ..; else ..;
+src/main/java/com/verizon/adb/restapi/ContactApi.java:70:	Local variable 'results' could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:71:	Avoid if (x != y) ..; else ..;
+src/main/java/com/verizon/adb/restapi/ContactApi.java:71:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/verizon/adb/restapi/ContactApi.java:71:	Substitute calls to size() == 0 (or size() != 0, size() > 0, size() < 1) with calls to isEmpty()
+src/main/java/com/verizon/adb/restapi/ContactApi.java:86:	Parameter 'contact' is not assigned and could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:86:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/restapi/ContactApi.java:87:	Found 'DD'-anomaly for variable 'resp' (lines '87'-'90').
+src/main/java/com/verizon/adb/restapi/ContactApi.java:87:	Found 'DD'-anomaly for variable 'resp' (lines '87'-'94').
+src/main/java/com/verizon/adb/restapi/ContactApi.java:90:	Found 'DD'-anomaly for variable 'resp' (lines '90'-'94').
+src/main/java/com/verizon/adb/restapi/ContactApi.java:98:	Avoid variables with short names like c
+src/main/java/com/verizon/adb/restapi/ContactApi.java:98:	Local variable 'c' could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:100:	Avoid using if...else statements without curly braces
+src/main/java/com/verizon/adb/restapi/ContactApi.java:102:	Avoid using if...else statements without curly braces
+src/main/java/com/verizon/adb/restapi/ContactApi.java:108:	Parameter 'contact' is not assigned and could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:108:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/restapi/ContactApi.java:109:	Found 'DD'-anomaly for variable 'resp' (lines '109'-'114').
+src/main/java/com/verizon/adb/restapi/ContactApi.java:109:	Found 'DD'-anomaly for variable 'resp' (lines '109'-'120').
+src/main/java/com/verizon/adb/restapi/ContactApi.java:111:	Avoid variables with short names like c
+src/main/java/com/verizon/adb/restapi/ContactApi.java:112:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/verizon/adb/restapi/ContactApi.java:112:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/verizon/adb/restapi/ContactApi.java:113:	These nested if statements could be combined
+src/main/java/com/verizon/adb/restapi/ContactApi.java:114:	Found 'DD'-anomaly for variable 'resp' (lines '114'-'120').
+src/main/java/com/verizon/adb/restapi/ContactApi.java:118:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/verizon/adb/restapi/ContactApi.java:118:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/verizon/adb/restapi/ContactApi.java:119:	These nested if statements could be combined
+src/main/java/com/verizon/adb/restapi/ContactApi.java:127:	Avoid using if...else statements without curly braces
+src/main/java/com/verizon/adb/restapi/ContactApi.java:129:	Avoid using if...else statements without curly braces
+src/main/java/com/verizon/adb/restapi/ContactApi.java:135:	Parameter 'contactId' is not assigned and could be declared final
+src/main/java/com/verizon/adb/restapi/ContactApi.java:135:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/restapi/ContactApi.java:136:	Found 'DD'-anomaly for variable 'resp' (lines '136'-'139').
+src/main/java/com/verizon/adb/restapi/ContactApi.java:136:	Found 'DD'-anomaly for variable 'resp' (lines '136'-'141').
+src/main/java/com/verizon/adb/restapi/ContactApi.java:139:	Avoid using if...else statements without curly braces
+src/main/java/com/verizon/adb/restapi/ContactApi.java:141:	Avoid using if...else statements without curly braces
+src/main/java/com/verizon/adb/service/ContactService.java:7:	headerCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:9:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:10:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:11:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:12:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:13:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:15:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:16:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:18:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactService.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:13:	Each class should declare at least one constructor
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:13:	headerCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:16:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:16:	fieldCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:19:	Parameter 'contactId' is not assigned and could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:19:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:20:	Found 'DD'-anomaly for variable 'contact' (lines '20'-'28').
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:26:	Local variable 'optContact' could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:27:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:28:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:35:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:40:	Parameter 'contact' is not assigned and could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:40:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:45:	Parameter 'contact' is not assigned and could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:45:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:50:	Parameter 'contactId' is not assigned and could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:50:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:51:	Found 'DD'-anomaly for variable 'isDeleted' (lines '51'-'54').
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:60:	Parameter 'mobileNumber' is not assigned and could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:60:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:65:	Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:65:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:70:	Parameter 'mobileNumber' is not assigned and could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:70:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:75:	Parameter 'emailId' is not assigned and could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:75:	publicMethodCommentRequirement Required
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:80:	Parameter 'lastName' is not assigned and could be declared final
+src/main/java/com/verizon/adb/service/ContactServiceImpl.java:80:	publicMethodCommentRequirement Required
+src/test/java/com/verizon/adb/AddressBookSpringDataRestfulAppApplicationTests.java:10:	Each class should declare at least one constructor
+src/test/java/com/verizon/adb/AddressBookSpringDataRestfulAppApplicationTests.java:10:	headerCommentRequirement Required
+src/test/java/com/verizon/adb/AddressBookSpringDataRestfulAppApplicationTests.java:13:	Document empty method body
+src/test/java/com/verizon/adb/AddressBookSpringDataRestfulAppApplicationTests.java:13:	publicMethodCommentRequirement Required
